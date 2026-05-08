@@ -1,0 +1,1 @@
+- `db5f202a-33c7-4e02-a330-c02913462a66` — 2026-05-08 — Plan and implement the spotify-auth Go CLI OAuth tool
