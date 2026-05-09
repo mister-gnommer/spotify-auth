@@ -65,5 +65,5 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Printf("\nRefresh token:\n%s\n\nPaste this into your app config.\n", tok.RefreshToken)
+	fmt.Printf("\nAccess token (use this for immediate API calls, expires in 1h):\n%s\n\nRefresh token (paste this into your app config):\n%s\n", tok.AccessToken, tok.RefreshToken)
 }
